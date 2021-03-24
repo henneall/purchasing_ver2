@@ -325,7 +325,7 @@
 					    			</td>
 					    			<td colspan="2" class="bor-right" align="center">
 					    				<!-- <b><?php echo number_format($it['price'],2); ?></b> -->
-					    				<b><input type='text' name='price<?php echo $x; ?>' id='price<?php echo $x; ?>' value='<?php echo number_format($it['price'],4); ?>' onkeyup='changePrice(<?php echo $x; ?>)' onkeypress="return isNumberKey(this, event)" style='color:red;width:100%' ></b>
+					    				<b><input type='text' name='price<?php echo $x; ?>' id='price<?php echo $x; ?>' value='<?php echo number_format($it['price'],2); ?>' onkeyup='changePrice(<?php echo $x; ?>)' onkeypress="return isNumberKey(this, event)" style='color:red;width:100%' ></b>
 					    			</td>
 					    			<td colspan="3" class="bor-right" align="right">
 					    				<b>
